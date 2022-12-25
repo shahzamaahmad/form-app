@@ -5,7 +5,7 @@ const cors = require('cors');
 const express = require('express')
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/form").then(() => {
+mongoose.connect("mongodb+srv://shahzama:Nothing2542@cluster0.0nkmlfk.mongodb.net/test").then(() => {
   console.log("database connected")
 }).catch(() => {
   console.log("Database Error");
